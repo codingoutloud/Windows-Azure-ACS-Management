@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata schemaVersion="2">
+    <id>WindowsAzure.ACS.Management</id>
+    <version>0.1</version>
+    <title>Windows Azure ACS Identity Provider SDK</title>
+    <authors>Cory Fowler</authors>
+    <owners>Cory Fowler</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a wrapper to the Home Realm Discovery API.</description>
+    <summary>Provides a wrapper to the Home Realm Discovery API.</summary>
+    <language>en-CA</language>
+    <tags>Windows Azure, ACS, API, Azure, Access Control Service</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="SyntaxC4.WindowsAzure.ACSManagement.dll" target="SyntaxC4.WindowsAzure.ACSManagement.dll" />
+  </files>
+</package>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SyntaxC4.WindowsAzure.ACSManagement.Mvc</id>
+    <version>0.1</version>
+    <title>Windows Azure Request Validation for ACS and ASP.NET MVC</title>
+    <authors>C4</authors>
+    <owners>Cory Fowler</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php;http://opensource.org/licenses/ms-pl.html</licenseUrl>
+    <projectUrl>https://github.com/SyntaxC4/Windows-Azure-ACS-Management</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package provides Request Validation for ACS when using ASP.NET MVC.</description>
+    <language>en-CA</language>
+    <tags>ACS, Windows Azure, AppFabric, ASPNETMVC</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.IdentityModel" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="content\DEPENDENCIES.txt" target="content\DEPENDENCIES.txt" />
+    <file src="lib\net40\SyntaxC4.WindowsAzure.ACSManagement.Mvc.dll" target="lib\net40\SyntaxC4.WindowsAzure.ACSManagement.Mvc.dll" />
+    <file src="lib\net40\SyntaxC4.WindowsAzure.ACSManagement.Mvc.pdb" target="lib\net40\SyntaxC4.WindowsAzure.ACSManagement.Mvc.pdb" />
+  </files>
+</package>

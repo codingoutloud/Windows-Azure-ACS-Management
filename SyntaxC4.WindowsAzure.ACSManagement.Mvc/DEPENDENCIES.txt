@@ -1,0 +1,7 @@
+Windows Identity Foundation Runtime: 
+
+http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=17331
+
+Windows Identity Foundation SDK: 
+
+http://www.microsoft.com/download/en/details.aspx?id=4451

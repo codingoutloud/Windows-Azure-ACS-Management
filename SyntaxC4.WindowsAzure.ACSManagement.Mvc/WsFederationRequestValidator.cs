@@ -2,6 +2,8 @@
 // View License: http://archive.msdn.microsoft.com/fshipsaassource/Project/License.aspx
 // OR in LICENSE.txt in root of this project.
 
+using System;
+
 namespace SyntaxC4.WindowsAzure.ACSManagement.Mvc
 {
     using System.Web;
@@ -23,9 +25,9 @@ namespace SyntaxC4.WindowsAzure.ACSManagement.Mvc
             validationFailureIndex = 0;
 
             if (requestValidationSource == RequestValidationSource.Form &&
-                collectionKey.Equals(WSFederationConstants.Parameters.Result))
+                collectionKey.Equals(WSFederationConstants.Parameters.Result, StringComparison.Ordinal))
             {
-                var signinResponseMessage = WSFederationMessage.CreateFromFormPost(context.Request) as SignInRequestMessage;
+                var signinResponseMessage = WSFederationMessage.CreateFromFormPost(context.Request) as SignInResponseMessage;
                 if (signinResponseMessage != null) return true;
             }
 
